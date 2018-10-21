@@ -31,7 +31,7 @@ def PasswordAdding():
 			d.data[eUser] += [(eSite,eLoginId,ePassword)]
 
 		
-	with open(r'F:\devs\py\locker\data.py','w') as w:
+	with open(r'./data.py','w') as w:
 		w.write('data = ')
 		w.write(pprint.pformat(d.data))
 

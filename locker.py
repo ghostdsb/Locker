@@ -6,7 +6,7 @@ N = ['no','n','stop']
 
 work = input('Password adding or retrieving?\n>')
 
-if 'add' in work or 'new' in work:
+if 'add' in work or 'new' in work or 'adding' in work:
 	pas.PasswordAdding()
 	
 else:
